@@ -13,8 +13,8 @@ const Hero = () => {
     1000,
   ];
   return (
-    <div>
-      <div className="max-w-[850px] mt-[96px] mx-8 sm:mx-32">
+    <div className="my-40" >
+      <div className="max-w-[850px] mt-[96px] mb-16 mx-8 sm:mx-32">
         <h1 className="text-3xl  sm:text-5xl font-bold mb-4">
           Hello, I'm {""}
           <span className="text-[#116A7B] underline">Bayu Ferdiman</span>, a
