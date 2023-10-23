@@ -15,7 +15,7 @@ const About = () => {
             />
           </div>
           <div className="m-2">
-            <p className="font-medium">
+            <p className="font-medium text-sm md:text-xl">
               Hello! My name is{" "}
               <span className="text-[#6096B4] font-semibold">Bayu Ferdiman</span>. I was
               interested in the world of programming when I was amazed by a
