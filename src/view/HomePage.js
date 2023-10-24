@@ -5,10 +5,12 @@ import About from "../components/About";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="scr">
       <Navbar />
       <Hero />
-      <About />
+      <div id="about">
+        <About />
+      </div>
     </div>
   );
 };

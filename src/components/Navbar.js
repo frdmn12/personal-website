@@ -10,17 +10,33 @@ const Navbar = () => {
   const handleNav = () => {
     SetNav(!nav);
   };
+
+  const closeNav = () => {
+    SetNav(false)
+  }
   return (
-    <div className="flex justify-between items-center max-w-[1240px] mx-auto px-4 h-17 text-black ">
-      <h1 className="w-full font-bold text-2xl">BF.</h1>
+    <div className="sticky top-0 flex justify-between items-center max-w-[1240px] mx-auto px-4 h-17 text-black bg-white ">
+      <h1 className="w-full font-bold text-2xl">
+        <a href="/">BF.</a>
+      </h1>
       <ul className="hidden md:flex">
-        <li className="p-4">ABOUT</li>
-        <li className="p-4">SKILLS</li>
-        <li className="p-4">PROJECT</li>
-        <li className="p-4">EXPERIENCE</li>
-        <li className="p-4">CONTACT</li>
+        <li className="p-4">
+          <a href="#about">ABOUT</a>
+        </li>
+        <li className="p-4">
+          <a href="#skill">SKILLS</a>
+        </li>
+        <li className="p-4">
+          <a href="#project">PROJECT</a>
+        </li>
+        <li className="p-4">
+          <a href="#experience">EXPERIENCE</a>
+        </li>
+        <li className="p-4">
+          <a href="#contact">CONTACT</a>
+        </li>
       </ul>
-      <div onClick={handleNav} className="block md:hidden">
+      <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <ul
@@ -30,12 +46,24 @@ const Navbar = () => {
             : "fixed left-[-100%] h-full ease-in-out duration-500 "
         }
       >
-        <h1 className="w-full font-bold text-2xl p-7">BF.</h1>
-        <li className="p-4 border-b border-gray-100">ABOUT</li>
-        <li className="p-4 border-b border-gray-100">SKILLS</li>
-        <li className="p-4 border-b border-gray-100">PROJECT</li>
-        <li className="p-4 border-b border-gray-100">EXPERIENCE</li>
-        <li className="p-4">CONTACT</li>
+        <h1 className="w-full font-bold text-2xl p-7">
+          <a href="/">BF.</a>
+        </h1>
+        <li className="p-4 border-b border-gray-100">
+          <a href="#about" onClick={closeNav}>ABOUT</a>
+        </li>
+        <li className="p-4 border-b border-gray-100">
+          <a href="#skill" onClick={closeNav}>SKILLS</a>
+        </li>
+        <li className="p-4 border-b border-gray-100">
+          <a href="#project" onClick={closeNav}>PROJECT</a>
+        </li>
+        <li className="p-4 border-b border-gray-100">
+          <a href="experince" onClick={closeNav}>EXPERIENCE</a>
+        </li>
+        <li className="p-4">
+          <a href="#contact" onClick={closeNav}>CONTACT</a>
+        </li>
       </ul>
     </div>
   );
