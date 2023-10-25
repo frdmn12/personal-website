@@ -15,7 +15,7 @@ const Navbar = () => {
     SetNav(false)
   }
   return (
-    <div className="sticky top-0 flex justify-between items-center w-[100%] mx-auto px-4 h-17 text-black bg-white ">
+    <div className="sticky top-0 flex justify-between items-center w-[100%] mx-auto px-4 h-17 text-black bg-white z-50">
       <h1 className="w-full font-bold text-2xl">
         <a href="/">BF.</a>
       </h1>

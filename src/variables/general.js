@@ -1,3 +1,32 @@
+import frame1 from "../assets/projects/frame1-PortalWeb.jpg"
+import frame2 from "../assets/projects/frame2-LautanUang.jpg"
+import frame3 from "../assets/projects/frame3-ArBook.jpg"
+
+export const projectsList = [
+  {
+    title : "Portal Website",
+    desc : "Rebuild the appearance of the Probolinggo Regency news & information portal website.",
+    image : `${frame1}`,
+    link: "https://portal-website-two.vercel.app",
+    listTech : ['React Js', 'Chakra-Ui']
+  },
+  {
+    title : "Lautan Uang",
+    desc : "An investment platform used by fishing companies or fishing communities to obtain financing through the sale of shares to investors.",
+    image : `${frame2}`,
+    link: "https://portal-website-two.vercel.app",
+    listTech : ['React Js']
+  },
+  {
+    title : "Augmented Reality Book",
+    desc : "Applications that utilize Augmented Reality technology to be able to show novel book reviews.",
+    image : `${frame3}`,
+    link: "https://github.com/frdmn12/Augmented-Reality-Book",
+    listTech : ['Unity', 'Vuforia']
+  },
+]
+
+
 export const skills = [
   {
     badge_title: "HTML5",

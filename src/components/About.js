@@ -1,5 +1,5 @@
 import React from "react";
-import photoProfile from "../assets/photoProfile.jpg";
+import photoProfile from "../assets/photo_profile.jpg";
 
 const About = () => {
   return (
@@ -7,11 +7,13 @@ const About = () => {
       <div className=" p-[70px] flex flex-col items-center">
         <h1 className="text-5xl  font-bold mb-5">About</h1>
         <div className="column gap-10 text-center md:text-left md:flex justify-center content-center items-center">
-          <div>
+          <div
+         
+          >
             <img
               src={photoProfile}
               alt="photo_profile"
-              className="mx-auto max-w-[200px] md:max-w-[300px] rounded-xl "
+              className="mx-auto max-w-[200px] md:max-w-[300px] rounded-xl saturate-0 hover:saturate-100"
             />
           </div>
           <div className="m-2">
