@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Skill from "../components/Skill";
 import Project from "../components/Project";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,9 @@ const HomePage = () => {
       </div>
       <div id="project">
         <Project/>
+      </div>
+      <div id="contact">
+        <Footer/>
       </div>
     </div>
   );
