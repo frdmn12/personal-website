@@ -15,11 +15,11 @@ const Project = () => {
 
 const displayProject = () => {
     return (
-        <div className="flex flex-wrap gap-16 justify-between text-left">
+        <div className="flex flex-wrap gap-16 justify-center">
             {
                 projectsList.map((list, index) => {
                     return (
-                        <Card 
+                        <Card
                         key={index}
                         title={list.title}
                         desc={list.desc}

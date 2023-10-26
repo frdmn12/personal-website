@@ -27,13 +27,10 @@ const Navbar = () => {
           <a href="#skill">SKILLS</a>
         </li>
         <li className="p-4">
-          <a href="#project">PROJECT</a>
+          <a href="#project">PROJECTS</a>
         </li>
         <li className="p-4">
-          <a href="#experience">EXPERIENCE</a>
-        </li>
-        <li className="p-4">
-          <a href="#contact">CONTACT</a>
+          <a href="#contact">CONTACTS</a>
         </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden cursor-pointer">

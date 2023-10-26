@@ -3,14 +3,13 @@ import { AiOutlineExport } from "react-icons/ai";
 
 const Card = ({ image, title, desc, listTech, link }) => {
   return (
-    <div className="relative flex flex-col justify-between  text-gray-700 bg-white shadow-lg w-96 rounded-xl bg-clip-border">
+    <div className="relative flex flex-col justify-between  text-gray-700 bg-white shadow-lg w-80 sm:w-96 rounded-xl bg-clip-border text-left">
       <div class="p-6">
         <div className="mb-4 bg-blue-gray-500 shadow-lg rounded-xl">
           <img
             src={image}
             alt="image_project"
-            layout="fill"
-            className="rounded-xl object-cover w-full h-60 hover:opacity-50"
+            className="rounded-xl object-cover w-full h-52 hover:opacity-50"
           />
         </div>
         <a href={link} target="blank" className="cursor-pointer flex items-center underline hover:text-blue-400">
