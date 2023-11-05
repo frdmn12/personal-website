@@ -1,31 +1,87 @@
-import frame1 from "../assets/projects/frame1-PortalWeb.jpg"
-import frame2 from "../assets/projects/frame2-LautanUang.jpg"
-import frame3 from "../assets/projects/frame3-ArBook.jpg"
+import frame1 from "../assets/projects/frame1-PortalWeb.jpg";
+import frame2 from "../assets/projects/frame2-LautanUang.jpg";
+import frame3 from "../assets/projects/frame3-ArBook.jpg";
+import frame4 from "../assets/projects/frame4-MyTopSong2021.png"
+import frame5 from "../assets/projects/frame5-NakoaCafe.jpg"
+import {
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+  AiOutlineMail,
+  AiOutlineDribbble,
+  AiOutlineInstagram,
+} from "react-icons/ai";
+
+const sizeIcon = 27;
+export const contactsList = [
+  {
+    content: "bayu-ferdiman",
+    link: "https://www.linkedin.com/in/bayu-ferdiman",
+    iconType: "linkedin",
+    icon: <AiOutlineLinkedin size={sizeIcon} />,
+  },
+  {
+    content: "@frdmn12",
+    link: "https://github.com/frdmn12",
+    iconType: "github",
+    icon: <AiOutlineGithub size={sizeIcon} />,
+  },
+  {
+    content: "bayu.ferdiman@binus.ac.id",
+    link: "mailto:bayu.ferdiman@binus.ac.id?subject=Work",
+    iconType: "mail",
+    icon: <AiOutlineMail size={sizeIcon} />,
+  },
+  {
+    content: "@bayuferdiman",
+    link: "https://dribbble.com/bayuferdiman",
+    iconType: "dribble",
+    icon: <AiOutlineDribbble size={sizeIcon} />,
+  },
+  {
+    content: "@frdmn12",
+    link: "https://www.instagram.com/frdmn12",
+    iconType: "instagram",
+    icon: <AiOutlineInstagram size={sizeIcon} />,
+  },
+];
 
 export const projectsList = [
   {
-    title : "Portal Website",
-    desc : "Rebuild the appearance of the Probolinggo Regency news & information portal website.",
-    image : `${frame1}`,
+    title: "Portal Website",
+    desc: "Rebuild the appearance of the Probolinggo Regency news & information portal website.",
+    image: `${frame1}`,
     link: "https://portal-website-two.vercel.app",
-    listTech : ['React Js', 'Chakra-Ui']
+    listTech: ["React Js", "Chakra-Ui"],
   },
   {
-    title : "Lautan Uang",
-    desc : "An investment platform used by fishing companies or fishing communities to obtain financing through the sale of shares to investors.",
-    image : `${frame2}`,
+    title: "Lautan Uang",
+    desc: "An investment platform used by fishing companies or fishing communities to obtain financing through the sale of shares to investors.",
+    image: `${frame2}`,
     link: "https://portal-website-two.vercel.app",
-    listTech : ['React Js']
+    listTech: ["React Js"],
   },
   {
-    title : "Augmented Reality Book",
-    desc : "Applications that utilize Augmented Reality technology to be able to show novel book reviews.",
-    image : `${frame3}`,
+    title: "Nakoa Cafe Online",
+    desc: "An unofficial coffeshop website that sells their drinks & food online",
+    image: `${frame5}`,
+    link: "https://github.com/frdmn12/nakoa-cafe",
+    listTech: ["React Js", "Express Js", "Tailwind", "Mysql"],
+  },
+  {
+    title: "Augmented Reality Book",
+    desc: "Applications that utilize Augmented Reality technology to be able to show novel book reviews.",
+    image: `${frame3}`,
     link: "https://github.com/frdmn12/Augmented-Reality-Book",
-    listTech : ['Unity', 'Vuforia']
+    listTech: ["Unity", "Vuforia"],
   },
-]
-
+  {
+    title: "My Top Song - 2021",
+    desc: "First time deploying Static Website on Netlify",
+    image: `${frame4}`,
+    link: "https://frdmn12-topsong.netlify.app",
+    listTech: ["Netlify", "Html", "Css"],
+  },
+];
 
 export const skills = [
   {
@@ -72,6 +128,31 @@ export const skills = [
     badge_title: "Bootstrap",
     img_link:
       "https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white",
+  },
+  {
+    badge_title: "Python",
+    img_link:
+      "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+  },
+  {
+    badge_title: "C",
+    img_link:
+      "https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white",
+  },
+  {
+    badge_title: "C++",
+    img_link:
+      "https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white",
+  },
+  {
+    badge_title: "Netlify",
+    img_link:
+      "https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white",
+  },
+  {
+    badge_title: "Vercel",
+    img_link:
+      "https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white",
   },
   {
     badge_title: "Java",
