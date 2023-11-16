@@ -55,9 +55,6 @@ const Navbar = () => {
         <li className="p-4 border-b border-gray-100">
           <a href="#project" onClick={closeNav}>PROJECT</a>
         </li>
-        <li className="p-4 border-b border-gray-100">
-          <a href="experince" onClick={closeNav}>EXPERIENCE</a>
-        </li>
         <li className="p-4">
           <a href="#contact" onClick={closeNav}>CONTACT</a>
         </li>
