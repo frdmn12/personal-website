@@ -57,8 +57,8 @@ export const projectsList = [
     title: "Lautan Uang",
     desc: "An investment platform used by fishing companies or fishing communities to obtain financing through the sale of shares to investors.",
     image: `${frame2}`,
-    link: "https://portal-website-two.vercel.app",
-    listTech: ["React Js"],
+    link: "https://github.com/qweersq/web-lautan-uang",
+    listTech: ["React Js", "Mysql", "Api", "Chakra Ui"],
   },
   {
     title: "Nakoa Cafe Online",
