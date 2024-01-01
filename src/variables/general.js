@@ -1,8 +1,8 @@
 import frame1 from "../assets/projects/frame1-PortalWeb.jpg";
 import frame2 from "../assets/projects/frame2-LautanUang.jpg";
 import frame3 from "../assets/projects/frame3-ArBook.jpg";
-import frame4 from "../assets/projects/frame4-MyTopSong2021.png"
-import frame5 from "../assets/projects/frame5-NakoaCafe.jpg"
+import frame4 from "../assets/projects/frame4-MyTopSong2021.png";
+import frame5 from "../assets/projects/frame5-NakoaCafe.jpg";
 import {
   AiOutlineLinkedin,
   AiOutlineGithub,
@@ -188,5 +188,25 @@ export const skills = [
     badge_title: "Adobe Pr",
     img_link:
       "https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white",
+  },
+  {
+    badge_title: "Flutter",
+    img_link:
+      "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white",
+  },
+  {
+    badge_title: "Firebase",
+    img_link:
+      "https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white",
+  },
+  {
+    badge_title: "Php",
+    img_link:
+      "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white",
+  },
+  {
+    badge_title: "Laravel",
+    img_link:
+      "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white",
   },
 ];
